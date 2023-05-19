@@ -49,10 +49,12 @@ body{
     font-weight: bold;
 }
 
+/*
+
 .header__container-navbar{
     display: none;
     
-}
+}*/
 
 .header__container-navbar li{
     margin: 0 15px;
