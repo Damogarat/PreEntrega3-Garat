@@ -49,12 +49,12 @@ body{
     font-weight: bold;
 }
 
-/*
+
 
 .header__container-navbar{
     display: none;
     
-}*/
+}
 
 .header__container-navbar li{
     margin: 0 15px;
@@ -97,6 +97,13 @@ body{
     box-shadow: 0 25px 50px 12px rgba(0, 0, 0, 0.6);
 }
 
+
+.construccion{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    }
+
 /*FOOTER*/
 
 footer{
@@ -107,24 +114,9 @@ footer{
     padding: 10px;
     font-size: 14px;
    }
-
- /*MEDIA QUERIES*/
-
- @media (min-width:768px) {
-    .header__container-navbar {
-        display: flex;
-    }
-
-    .header__container-navbar-mobile {
-        display: none;
-    }
-
-    .hero__container {
-        grid-template-columns:repeat(2, 1fr);
- }
  
  
-/* PRODUCTOS */
+/* ARRIVALS*/
 
 .productos_body{
     background-color: antiquewhite;
@@ -147,7 +139,20 @@ footer{
 
 
 
+ /*MEDIA QUERIES*/
 
+ @media (min-width:992px) {
+    .header__container-navbar {
+        display: flex;
+    }
 
+    .header__container-navbar-mobile {
+        display: none;
+    }
 
+    .hero__container {
+        grid-template-columns:repeat(2, 1fr);
+ }
+
+}
 

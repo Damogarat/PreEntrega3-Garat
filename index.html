@@ -10,20 +10,46 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-   <header class="header">
+    <header class="header">
         <div class="header__container">
-            <a href="/index.html"><h1>Moldavia</h1></a>
-            <nav>
-                <ul class="header__container-navbar">
-                    <li><a href="./pages/nosotros.html"></a>Nosotros</li>
-                    <li><a href="./pages/productos.html">Productos</a></li>
-                    <li><a href="./pages/contact.html">Contacto</a></li>
-                </ul>             
-                    <div class="header__container-navbar-mobile">
-                        <span>🍔</span>
-                    </div>
-            </nav>
-        </div>
+            <a href="./index.html"><h1>MOLDAVIA</h1></a>             
+            <nav class="navbar navbar-expand-lg bg-body-transparent">
+              <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ms-auto">
+                            <li class="nav-item dropdown">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/arrivals.html">NEW ARRIVALS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/productos.html">PRODUCTOS</a>
+                                </li>                             
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> PROMOCIONES  </a>
+                                  <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="./pages/promociones.html">PROMOCIONES</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="">20% DE DESCUENTO</a></li>
+                                  <li><a class="dropdown-item" href="">30% DE DESCUENTO</a></li>
+                                  <li><a class="dropdown-item" href="">50% DE DESCUENTO</a></li>
+                                  </ul>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="./pages/nosotros.html">NOSOTROS</a>
+                                </li>
+                                <li class="nav-item">
+                              <a class="nav-link" href="./pages/contact.html">CONTACTO</a>
+                          </li>
+                        </ul>
+                  <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+                  </div>
+              </div>
+          </nav>
     </header>
     <main>
         <section class="hero">
@@ -32,7 +58,7 @@
                     <h1>Accesorios de cuero vacuno</h1>
                     <p>En MOLDÂVIA, nos dedicamos a la creación de accesorios y carteras de cuero de alta calidad. Nos enorgullece ofrecer productos hechos a mano con materiales nobles y procesos de producción artesanales. Nuestro objetivo es crear piezas únicas y atermporales que reflejen la personalidad y el estilo de nuestras clientes.</p>
                 </div>
-                <img class="hero__container-image" src="./assets/images/Cartera blanca y sobre.PNG" alt="Foto cartera y sobre">
+                <img class="hero__container-image" src="./assets/images/Cartera-blanca-y-sobre jpg.JPG" alt="Foto cartera y sobre">
             </div>
         </section>
     </main>
