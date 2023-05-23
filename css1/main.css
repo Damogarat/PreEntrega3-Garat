@@ -1,0 +1,178 @@
+/*UTILS*/ /*breakpoints*/
+/*colores*/
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: FuenteProyecto;
+  src: url(../assets/ttf/Lato-Bold.ttf);
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/*BODY*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+
+/*EXTEND*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*COMPONENTES*/
+/*FOOTER*/
+footer {
+  height: 30px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  font-size: 20px;
+  color: rgb(151, 66, 66);
+}
+
+.header {
+  background-color: antiquewhite;
+  padding: 30px 20px;
+}
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__container h1 a {
+  color: rgb(151, 66, 66);
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(151, 66, 66);
+}
+
+.hero {
+  background-color: antiquewhite;
+  padding: 60PX 20PX;
+  color: rgb(151, 66, 66);
+}
+.hero__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 50px;
+}
+.hero__container-info h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.hero__container-info p {
+  margin-bottom: 40px;
+}
+.hero__container-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px 12px rgba(0, 0, 0, 0.6);
+}
+
+/*media queries*/
+@media (min-width: 768px) {
+  .hero__container {
+    display: flex;
+  }
+  .hero__container-mobile {
+    display: none;
+  }
+  .hero__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.construccion {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+
+/*VIEWS*/
+.productos-venta {
+  max-width: 1200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(151, 66, 66);
+}
+
+.card-container {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card-container .card {
+  width: 100%;
+}
+.card-container .card img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card-container .card .card-body {
+  padding: 1rem;
+  margin-top: 60px;
+}
+
+/* MEDIA QUERIE*/
+@media (min-width: 768px) {
+  .card-container {
+    display: flex;
+  }
+}
+.productos_body {
+  background-color: antiquewhite;
+}
+
+.parrafo_producto {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: rgb(151, 66, 66);
+}
+
+.custom-img {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 600px;
+  object-fit: cover;
+}
+
+form {
+  width: 400px;
+  background-color: antiquewhite;
+  padding: 60px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  color: rgb(178, 40, 212);
+  box-shadow: 7px 13px 20px #000;
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: antiquewhite;
+}

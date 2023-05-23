@@ -1,0 +1,14 @@
+/*UTILS*/
+@import '../sass/utils/variables';
+@import './utils/global';
+
+/*COMPONENTES*/
+@import '../sass/components/footer';
+@import './components/header';
+@import './components/seccionRepetida';
+
+/*VIEWS*/
+
+@import './views/products';
+@import './views/arrivals';
+@import './views/contact';

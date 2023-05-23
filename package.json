@@ -1,0 +1,14 @@
+{
+  "name": "entrega-3",
+  "version": "1.0.0",
+  "description": "Se hicieron las correcciones solicitadas:",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass ./sass/main.scss ./css1/main.css -w --no-source-map"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}

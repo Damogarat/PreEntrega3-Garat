@@ -1,0 +1,55 @@
+.hero {
+          background-color: $backg;
+          padding: 60PX 20PX;
+          color: $fonlight;
+        
+          &__container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            gap: 50px;
+        
+            &-info {
+              h1 {
+                font-size: 40px;
+                margin-bottom: 20px;
+              }
+        
+              p {
+                margin-bottom: 40px;
+              }
+            }
+        
+            &-image {
+              width: 100%;
+              border-radius: 10px;
+              box-shadow: 0 25px 50px 12px rgba(0, 0, 0, 0.6);
+            }
+          }
+        }
+
+        /*media queries*/
+        
+
+        @media (min-width: $bpMedium) {
+          .hero__container{
+              display: flex;
+          }
+      
+          .hero__container-mobile {
+              display: none;
+          }
+      
+          .hero__container {
+              grid-template-columns: repeat(2, 1fr);
+          }
+      }
+
+      .construccion{
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        } 
+        
