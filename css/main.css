@@ -131,7 +131,7 @@ footer {
 .card-container .card img {
   height: 500px;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .card-container .card .card-body {
   padding: 1rem;
@@ -162,7 +162,7 @@ footer {
 }
 
 form {
-  width: 750px;
+  width: 400px;
   background-color: antiquewhite;
   padding: 60px;
   margin: auto;
